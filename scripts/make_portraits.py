@@ -114,8 +114,8 @@ big_img = Image.new("RGBA", (SIZE*(COUNT+1), SIZE), 0)
 for i, file in enumerate(os.listdir("portraits")):
     if i % COUNT == 0 and i != 0:
         save_religions()
-        religions.append([])
         save_big_img()
+        religions.append([])
     img = process_image(Image.open(f'portraits/{file}'))
     religions[-1].append(get_religions(file))
     big_img.paste(img, (SIZE*(i%COUNT+1), 0))
