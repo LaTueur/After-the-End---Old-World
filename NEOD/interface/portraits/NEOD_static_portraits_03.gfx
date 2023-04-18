@@ -1,20 +1,20 @@
 
 spriteTypes = {
 	spriteType = {
-		name = "GFX_portrait_NEOD_portraits_01"
-		texturefile = "gfx/static_portraits/GFX_portrait_NEOD_portraits_01.png"
+		name = "GFX_portrait_NEOD_portraits_03"
+		texturefile = "gfx/static_portraits/GFX_portrait_NEOD_portraits_03.png"
 		noOfFrames = 27
 		norefcount = yes
 		can_be_lowres = yes
 	}
     portraitType = {
-        name = "PORTRAIT_NEOD_static_01"
+        name = "PORTRAIT_NEOD_static_03"
 
         weight = {
             additive_modifier = {
                 value = 1000000
                 portrait_clothing = yes
-				portrait_religion = vajrayana
+				OR = {portrait_religion = vagarna portrait_religion = vajrayana portrait_religion = zarist}
 			}
         }
 
@@ -25,7 +25,7 @@ spriteTypes = {
             "GFX_empty:c1"
             "GFX_empty:c4"
             "GFX_empty:p1:h:y"
-            "GFX_portrait_NEOD_portraits_01:c5"
+            "GFX_portrait_NEOD_portraits_03:c5"
         }
 
         allow_property_values = {
@@ -52,32 +52,33 @@ spriteTypes = {
             }
             5 = {
 				0 = { always = no }
-				1 = { portrait_religion = vajrayana }
-				2 = { always = no }
-				3 = { always = no }
-				4 = { always = no }
-				5 = { always = no }
-				6 = { always = no }
-				7 = { always = no }
-				8 = { always = no }
-				9 = { always = no }
-				10 = { always = no }
-				11 = { always = no }
-				12 = { always = no }
-				13 = { always = no }
-				14 = { always = no }
-				15 = { always = no }
-				16 = { always = no }
-				17 = { always = no }
-				18 = { always = no }
-				19 = { always = no }
-				20 = { always = no }
-				21 = { always = no }
-				22 = { always = no }
-				23 = { always = no }
-				24 = { always = no }
-				25 = { always = no }
-				26 = { always = no }
+				1 = {portrait_religion = vagarna}
+2 = {portrait_religion = vajrayana}
+3 = {portrait_religion = zarist}
+4 = { always = no }
+5 = { always = no }
+6 = { always = no }
+7 = { always = no }
+8 = { always = no }
+9 = { always = no }
+10 = { always = no }
+11 = { always = no }
+12 = { always = no }
+13 = { always = no }
+14 = { always = no }
+15 = { always = no }
+16 = { always = no }
+17 = { always = no }
+18 = { always = no }
+19 = { always = no }
+20 = { always = no }
+21 = { always = no }
+22 = { always = no }
+23 = { always = no }
+24 = { always = no }
+25 = { always = no }
+26 = { always = no }
+
 			}
 		}
 	}

@@ -1,0 +1,85 @@
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_NEOD_portraits_02"
+		texturefile = "gfx/static_portraits/GFX_portrait_NEOD_portraits_02.png"
+		noOfFrames = 27
+		norefcount = yes
+		can_be_lowres = yes
+	}
+    portraitType = {
+        name = "PORTRAIT_NEOD_static_02"
+
+        weight = {
+            additive_modifier = {
+                value = 1000000
+                portrait_clothing = yes
+				OR = {portrait_religion = lutheran portrait_religion = marblist portrait_religion = neodonatists portrait_religion = neohuguenot portrait_religion = nobelian portrait_religion = novelist portrait_religion = novelist_reformed portrait_religion = oldbeliever portrait_religion = orange_king portrait_religion = orthodox portrait_religion = osvicenism portrait_religion = petrist portrait_religion = poseidonian portrait_religion = prussianist portrait_religion = quaker portrait_religion = sevillian portrait_religion = sisukkuus portrait_religion = stalinist portrait_religion = starist_pagan portrait_religion = starist_pagan_reformed portrait_religion = summer_queen portrait_religion = sunni portrait_religion = thelemic portrait_religion = thelemic_reformed portrait_religion = theosophy portrait_religion = titoist portrait_religion = transatlantic portrait_religion = trotskyite}
+			}
+        }
+
+        layer = {
+            "GFX_empty:c0"
+            "GFX_empty:c2"
+            "GFX_empty:c3"
+            "GFX_empty:c1"
+            "GFX_empty:c4"
+            "GFX_empty:p1:h:y"
+            "GFX_portrait_NEOD_portraits_02:c5"
+        }
+
+        allow_property_values = {
+            1 = {
+				0  = { always = yes }
+            }
+            19 = {
+				0  = { always = yes }
+            }
+			33 = {
+				0  = { always = yes }
+            }
+            34 = {
+				0  = { always = yes }
+            }
+            35 = {
+				0  = { always = yes }
+            }
+            36 = {
+				0  = { always = yes }
+            }
+			6 = {
+				0 = { always = yes }
+            }
+            5 = {
+				0 = { always = no }
+				1 = {portrait_religion = lutheran}
+2 = {portrait_religion = marblist}
+3 = {portrait_religion = neodonatists}
+4 = {portrait_religion = neohuguenot}
+5 = {portrait_religion = nobelian}
+6 = {OR = {portrait_religion = novelist portrait_religion = novelist_reformed}}
+7 = {portrait_religion = oldbeliever}
+8 = {portrait_religion = orange_king}
+9 = {portrait_religion = orthodox}
+10 = {portrait_religion = osvicenism}
+11 = {portrait_religion = petrist}
+12 = {portrait_religion = poseidonian}
+13 = {portrait_religion = prussianist}
+14 = {portrait_religion = quaker}
+15 = {portrait_religion = sevillian}
+16 = {portrait_religion = sisukkuus}
+17 = {portrait_religion = stalinist}
+18 = {OR = {portrait_religion = starist_pagan portrait_religion = starist_pagan_reformed}}
+19 = {portrait_religion = summer_queen}
+20 = {portrait_religion = sunni}
+21 = {portrait_religion = thelemic}
+22 = {portrait_religion = thelemic_reformed}
+23 = {portrait_religion = theosophy}
+24 = {portrait_religion = titoist}
+25 = {portrait_religion = transatlantic}
+26 = {portrait_religion = trotskyite}
+
+			}
+		}
+	}
+}

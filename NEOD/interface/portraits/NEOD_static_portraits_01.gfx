@@ -1,0 +1,85 @@
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_NEOD_portraits_01"
+		texturefile = "gfx/static_portraits/GFX_portrait_NEOD_portraits_01.png"
+		noOfFrames = 27
+		norefcount = yes
+		can_be_lowres = yes
+	}
+    portraitType = {
+        name = "PORTRAIT_NEOD_static_01"
+
+        weight = {
+            additive_modifier = {
+                value = 1000000
+                portrait_clothing = yes
+				OR = {portrait_religion = anglican portrait_religion = armenianapostolic portrait_religion = baltic_pagan portrait_religion = baltic_pagan_reformed portrait_religion = bezpopotvsy portrait_religion = blorg portrait_religion = brethren portrait_religion = cadaverist portrait_religion = calvinist portrait_religion = catholic portrait_religion = celtic_pagan portrait_religion = celtic_pagan_reformed portrait_religion = congregationist portrait_religion = easternprotestant portrait_religion = federationist portrait_religion = finnish_pagan portrait_religion = finnish_pagan_reformed portrait_religion = folklorist portrait_religion = folklorist_reformed portrait_religion = fraticelli portrait_religion = gnostic portrait_religion = hellenic_pagan portrait_religion = hellenic_pagan_reformed portrait_religion = hussite portrait_religion = inuit_pagan portrait_religion = inuit_pagan_reformed portrait_religion = jacobinist portrait_religion = jadidist portrait_religion = jugoslavist portrait_religion = katerinist portrait_religion = koranist portrait_religion = leninist}
+			}
+        }
+
+        layer = {
+            "GFX_empty:c0"
+            "GFX_empty:c2"
+            "GFX_empty:c3"
+            "GFX_empty:c1"
+            "GFX_empty:c4"
+            "GFX_empty:p1:h:y"
+            "GFX_portrait_NEOD_portraits_01:c5"
+        }
+
+        allow_property_values = {
+            1 = {
+				0  = { always = yes }
+            }
+            19 = {
+				0  = { always = yes }
+            }
+			33 = {
+				0  = { always = yes }
+            }
+            34 = {
+				0  = { always = yes }
+            }
+            35 = {
+				0  = { always = yes }
+            }
+            36 = {
+				0  = { always = yes }
+            }
+			6 = {
+				0 = { always = yes }
+            }
+            5 = {
+				0 = { always = no }
+				1 = {portrait_religion = anglican}
+2 = {portrait_religion = armenianapostolic}
+3 = {OR = {portrait_religion = baltic_pagan portrait_religion = baltic_pagan_reformed}}
+4 = {portrait_religion = bezpopotvsy}
+5 = {portrait_religion = blorg}
+6 = {portrait_religion = brethren}
+7 = {portrait_religion = cadaverist}
+8 = {portrait_religion = calvinist}
+9 = {portrait_religion = catholic}
+10 = {OR = {portrait_religion = celtic_pagan portrait_religion = celtic_pagan_reformed}}
+11 = {portrait_religion = congregationist}
+12 = {portrait_religion = easternprotestant}
+13 = {portrait_religion = federationist}
+14 = {OR = {portrait_religion = finnish_pagan portrait_religion = finnish_pagan_reformed}}
+15 = {OR = {portrait_religion = folklorist portrait_religion = folklorist_reformed}}
+16 = {portrait_religion = fraticelli}
+17 = {portrait_religion = gnostic}
+18 = {OR = {portrait_religion = hellenic_pagan portrait_religion = hellenic_pagan_reformed}}
+19 = {portrait_religion = hussite}
+20 = {OR = {portrait_religion = inuit_pagan portrait_religion = inuit_pagan_reformed}}
+21 = {portrait_religion = jacobinist}
+22 = {portrait_religion = jadidist}
+23 = {portrait_religion = jugoslavist}
+24 = {portrait_religion = katerinist}
+25 = {portrait_religion = koranist}
+26 = {portrait_religion = leninist}
+
+			}
+		}
+	}
+}
